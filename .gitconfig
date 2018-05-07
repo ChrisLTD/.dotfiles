@@ -15,4 +15,4 @@
   logp = log --pretty=oneline --max-count=20
   subinit = !git submodule init && git submodule update
   nvpush = !git push --no-verify
-	recent = !git for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' --count=10  refs/heads
+  recent = !git for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' --count=10  refs/heads
